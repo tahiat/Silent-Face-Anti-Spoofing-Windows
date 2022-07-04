@@ -18,6 +18,356 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\glslang\build_info.h" />
+    <ClInclude Include="include\glslang\Include\arrays.h" />
+    <ClInclude Include="include\glslang\Include\BaseTypes.h" />
+    <ClInclude Include="include\glslang\Include\Common.h" />
+    <ClInclude Include="include\glslang\Include\ConstantUnion.h" />
+    <ClInclude Include="include\glslang\Include\glslang_c_interface.h" />
+    <ClInclude Include="include\glslang\Include\glslang_c_shader_types.h" />
+    <ClInclude Include="include\glslang\Include\InfoSink.h" />
+    <ClInclude Include="include\glslang\Include\InitializeGlobals.h" />
+    <ClInclude Include="include\glslang\Include\intermediate.h" />
+    <ClInclude Include="include\glslang\Include\PoolAlloc.h" />
+    <ClInclude Include="include\glslang\Include\ResourceLimits.h" />
+    <ClInclude Include="include\glslang\Include\ShHandle.h" />
+    <ClInclude Include="include\glslang\Include\SpirvIntrinsics.h" />
+    <ClInclude Include="include\glslang\Include\Types.h" />
+    <ClInclude Include="include\glslang\MachineIndependent\attribute.h" />
+    <ClInclude Include="include\glslang\MachineIndependent\glslang_tab.cpp.h" />
+    <ClInclude Include="include\glslang\MachineIndependent\gl_types.h" />
+    <ClInclude Include="include\glslang\MachineIndependent\Initialize.h" />
+    <ClInclude Include="include\glslang\MachineIndependent\iomapper.h" />
+    <ClInclude Include="include\glslang\MachineIndependent\LiveTraverser.h" />
+    <ClInclude Include="include\glslang\MachineIndependent\localintermediate.h" />
+    <ClInclude Include="include\glslang\MachineIndependent\ParseHelper.h" />
+    <ClInclude Include="include\glslang\MachineIndependent\parseVersions.h" />
+    <ClInclude Include="include\glslang\MachineIndependent\preprocessor\PpContext.h" />
+    <ClInclude Include="include\glslang\MachineIndependent\preprocessor\PpTokens.h" />
+    <ClInclude Include="include\glslang\MachineIndependent\propagateNoContraction.h" />
+    <ClInclude Include="include\glslang\MachineIndependent\reflection.h" />
+    <ClInclude Include="include\glslang\MachineIndependent\RemoveTree.h" />
+    <ClInclude Include="include\glslang\MachineIndependent\Scan.h" />
+    <ClInclude Include="include\glslang\MachineIndependent\ScanContext.h" />
+    <ClInclude Include="include\glslang\MachineIndependent\SymbolTable.h" />
+    <ClInclude Include="include\glslang\MachineIndependent\Versions.h" />
+    <ClInclude Include="include\glslang\Public\ShaderLang.h" />
+    <ClInclude Include="include\glslang\SPIRV\bitutils.h" />
+    <ClInclude Include="include\glslang\SPIRV\disassemble.h" />
+    <ClInclude Include="include\glslang\SPIRV\doc.h" />
+    <ClInclude Include="include\glslang\SPIRV\GLSL.ext.AMD.h" />
+    <ClInclude Include="include\glslang\SPIRV\GLSL.ext.EXT.h" />
+    <ClInclude Include="include\glslang\SPIRV\GLSL.ext.KHR.h" />
+    <ClInclude Include="include\glslang\SPIRV\GLSL.ext.NV.h" />
+    <ClInclude Include="include\glslang\SPIRV\GLSL.std.450.h" />
+    <ClInclude Include="include\glslang\SPIRV\GlslangToSpv.h" />
+    <ClInclude Include="include\glslang\SPIRV\hex_float.h" />
+    <ClInclude Include="include\glslang\SPIRV\Logger.h" />
+    <ClInclude Include="include\glslang\SPIRV\NonSemanticDebugPrintf.h" />
+    <ClInclude Include="include\glslang\SPIRV\spirv.hpp" />
+    <ClInclude Include="include\glslang\SPIRV\SpvBuilder.h" />
+    <ClInclude Include="include\glslang\SPIRV\spvIR.h" />
+    <ClInclude Include="include\glslang\SPIRV\SPVRemapper.h" />
+    <ClInclude Include="include\glslang\SPIRV\SpvTools.h" />
+    <ClInclude Include="include\ncnn\allocator.h" />
+    <ClInclude Include="include\ncnn\benchmark.h" />
+    <ClInclude Include="include\ncnn\blob.h" />
+    <ClInclude Include="include\ncnn\command.h" />
+    <ClInclude Include="include\ncnn\cpu.h" />
+    <ClInclude Include="include\ncnn\c_api.h" />
+    <ClInclude Include="include\ncnn\datareader.h" />
+    <ClInclude Include="include\ncnn\gpu.h" />
+    <ClInclude Include="include\ncnn\layer.h" />
+    <ClInclude Include="include\ncnn\layer_shader_type.h" />
+    <ClInclude Include="include\ncnn\layer_shader_type_enum.h" />
+    <ClInclude Include="include\ncnn\layer_type.h" />
+    <ClInclude Include="include\ncnn\layer_type_enum.h" />
+    <ClInclude Include="include\ncnn\mat.h" />
+    <ClInclude Include="include\ncnn\modelbin.h" />
+    <ClInclude Include="include\ncnn\ncnn_export.h" />
+    <ClInclude Include="include\ncnn\net.h" />
+    <ClInclude Include="include\ncnn\option.h" />
+    <ClInclude Include="include\ncnn\paramdict.h" />
+    <ClInclude Include="include\ncnn\pipeline.h" />
+    <ClInclude Include="include\ncnn\pipelinecache.h" />
+    <ClInclude Include="include\ncnn\platform.h" />
+    <ClInclude Include="include\ncnn\simpleocv.h" />
+    <ClInclude Include="include\ncnn\simpleomp.h" />
+    <ClInclude Include="include\ncnn\simplestl.h" />
+    <ClInclude Include="include\ncnn\vulkan_header_fix.h" />
+    <ClInclude Include="include\opencv2\calib3d.hpp" />
+    <ClInclude Include="include\opencv2\calib3d\calib3d.hpp" />
+    <ClInclude Include="include\opencv2\calib3d\calib3d_c.h" />
+    <ClInclude Include="include\opencv2\core.hpp" />
+    <ClInclude Include="include\opencv2\core\affine.hpp" />
+    <ClInclude Include="include\opencv2\core\async.hpp" />
+    <ClInclude Include="include\opencv2\core\base.hpp" />
+    <ClInclude Include="include\opencv2\core\bindings_utils.hpp" />
+    <ClInclude Include="include\opencv2\core\bufferpool.hpp" />
+    <ClInclude Include="include\opencv2\core\check.hpp" />
+    <ClInclude Include="include\opencv2\core\core.hpp" />
+    <ClInclude Include="include\opencv2\core\core_c.h" />
+    <ClInclude Include="include\opencv2\core\cuda.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda.inl.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\block.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\border_interpolate.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\color.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\common.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\datamov_utils.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\detail\color_detail.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\detail\reduce.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\detail\reduce_key_val.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\detail\transform_detail.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\detail\type_traits_detail.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\detail\vec_distance_detail.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\dynamic_smem.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\emulation.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\filters.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\funcattrib.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\functional.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\limits.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\reduce.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\saturate_cast.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\scan.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\simd_functions.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\transform.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\type_traits.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\utility.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\vec_distance.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\vec_math.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\vec_traits.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\warp.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\warp_reduce.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda\warp_shuffle.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda_stream_accessor.hpp" />
+    <ClInclude Include="include\opencv2\core\cuda_types.hpp" />
+    <ClInclude Include="include\opencv2\core\cvdef.h" />
+    <ClInclude Include="include\opencv2\core\cvstd.hpp" />
+    <ClInclude Include="include\opencv2\core\cvstd.inl.hpp" />
+    <ClInclude Include="include\opencv2\core\cv_cpu_dispatch.h" />
+    <ClInclude Include="include\opencv2\core\cv_cpu_helper.h" />
+    <ClInclude Include="include\opencv2\core\detail\async_promise.hpp" />
+    <ClInclude Include="include\opencv2\core\detail\exception_ptr.hpp" />
+    <ClInclude Include="include\opencv2\core\directx.hpp" />
+    <ClInclude Include="include\opencv2\core\eigen.hpp" />
+    <ClInclude Include="include\opencv2\core\fast_math.hpp" />
+    <ClInclude Include="include\opencv2\core\hal\hal.hpp" />
+    <ClInclude Include="include\opencv2\core\hal\interface.h" />
+    <ClInclude Include="include\opencv2\core\hal\intrin.hpp" />
+    <ClInclude Include="include\opencv2\core\hal\intrin_avx.hpp" />
+    <ClInclude Include="include\opencv2\core\hal\intrin_avx512.hpp" />
+    <ClInclude Include="include\opencv2\core\hal\intrin_cpp.hpp" />
+    <ClInclude Include="include\opencv2\core\hal\intrin_forward.hpp" />
+    <ClInclude Include="include\opencv2\core\hal\intrin_msa.hpp" />
+    <ClInclude Include="include\opencv2\core\hal\intrin_neon.hpp" />
+    <ClInclude Include="include\opencv2\core\hal\intrin_sse.hpp" />
+    <ClInclude Include="include\opencv2\core\hal\intrin_sse_em.hpp" />
+    <ClInclude Include="include\opencv2\core\hal\intrin_vsx.hpp" />
+    <ClInclude Include="include\opencv2\core\hal\intrin_wasm.hpp" />
+    <ClInclude Include="include\opencv2\core\hal\msa_macros.h" />
+    <ClInclude Include="include\opencv2\core\hal\simd_utils.impl.hpp" />
+    <ClInclude Include="include\opencv2\core\ippasync.hpp" />
+    <ClInclude Include="include\opencv2\core\mat.hpp" />
+    <ClInclude Include="include\opencv2\core\mat.inl.hpp" />
+    <ClInclude Include="include\opencv2\core\matx.hpp" />
+    <ClInclude Include="include\opencv2\core\neon_utils.hpp" />
+    <ClInclude Include="include\opencv2\core\ocl.hpp" />
+    <ClInclude Include="include\opencv2\core\ocl_genbase.hpp" />
+    <ClInclude Include="include\opencv2\core\opencl\ocl_defs.hpp" />
+    <ClInclude Include="include\opencv2\core\opencl\opencl_info.hpp" />
+    <ClInclude Include="include\opencv2\core\opencl\opencl_svm.hpp" />
+    <ClInclude Include="include\opencv2\core\opencl\runtime\autogenerated\opencl_clamdblas.hpp" />
+    <ClInclude Include="include\opencv2\core\opencl\runtime\autogenerated\opencl_clamdfft.hpp" />
+    <ClInclude Include="include\opencv2\core\opencl\runtime\autogenerated\opencl_core.hpp" />
+    <ClInclude Include="include\opencv2\core\opencl\runtime\autogenerated\opencl_core_wrappers.hpp" />
+    <ClInclude Include="include\opencv2\core\opencl\runtime\autogenerated\opencl_gl.hpp" />
+    <ClInclude Include="include\opencv2\core\opencl\runtime\autogenerated\opencl_gl_wrappers.hpp" />
+    <ClInclude Include="include\opencv2\core\opencl\runtime\opencl_clamdblas.hpp" />
+    <ClInclude Include="include\opencv2\core\opencl\runtime\opencl_clamdfft.hpp" />
+    <ClInclude Include="include\opencv2\core\opencl\runtime\opencl_core.hpp" />
+    <ClInclude Include="include\opencv2\core\opencl\runtime\opencl_core_wrappers.hpp" />
+    <ClInclude Include="include\opencv2\core\opencl\runtime\opencl_gl.hpp" />
+    <ClInclude Include="include\opencv2\core\opencl\runtime\opencl_gl_wrappers.hpp" />
+    <ClInclude Include="include\opencv2\core\opencl\runtime\opencl_svm_20.hpp" />
+    <ClInclude Include="include\opencv2\core\opencl\runtime\opencl_svm_definitions.hpp" />
+    <ClInclude Include="include\opencv2\core\opencl\runtime\opencl_svm_hsa_extension.hpp" />
+    <ClInclude Include="include\opencv2\core\opengl.hpp" />
+    <ClInclude Include="include\opencv2\core\operations.hpp" />
+    <ClInclude Include="include\opencv2\core\optim.hpp" />
+    <ClInclude Include="include\opencv2\core\ovx.hpp" />
+    <ClInclude Include="include\opencv2\core\persistence.hpp" />
+    <ClInclude Include="include\opencv2\core\ptr.inl.hpp" />
+    <ClInclude Include="include\opencv2\core\saturate.hpp" />
+    <ClInclude Include="include\opencv2\core\simd_intrinsics.hpp" />
+    <ClInclude Include="include\opencv2\core\softfloat.hpp" />
+    <ClInclude Include="include\opencv2\core\sse_utils.hpp" />
+    <ClInclude Include="include\opencv2\core\traits.hpp" />
+    <ClInclude Include="include\opencv2\core\types.hpp" />
+    <ClInclude Include="include\opencv2\core\types_c.h" />
+    <ClInclude Include="include\opencv2\core\utility.hpp" />
+    <ClInclude Include="include\opencv2\core\utils\allocator_stats.hpp" />
+    <ClInclude Include="include\opencv2\core\utils\allocator_stats.impl.hpp" />
+    <ClInclude Include="include\opencv2\core\utils\filesystem.hpp" />
+    <ClInclude Include="include\opencv2\core\utils\instrumentation.hpp" />
+    <ClInclude Include="include\opencv2\core\utils\logger.defines.hpp" />
+    <ClInclude Include="include\opencv2\core\utils\logger.hpp" />
+    <ClInclude Include="include\opencv2\core\utils\tls.hpp" />
+    <ClInclude Include="include\opencv2\core\utils\trace.hpp" />
+    <ClInclude Include="include\opencv2\core\va_intel.hpp" />
+    <ClInclude Include="include\opencv2\core\version.hpp" />
+    <ClInclude Include="include\opencv2\core\vsx_utils.hpp" />
+    <ClInclude Include="include\opencv2\core\wimage.hpp" />
+    <ClInclude Include="include\opencv2\cvconfig.h" />
+    <ClInclude Include="include\opencv2\dnn.hpp" />
+    <ClInclude Include="include\opencv2\dnn\all_layers.hpp" />
+    <ClInclude Include="include\opencv2\dnn\dict.hpp" />
+    <ClInclude Include="include\opencv2\dnn\dnn.hpp" />
+    <ClInclude Include="include\opencv2\dnn\dnn.inl.hpp" />
+    <ClInclude Include="include\opencv2\dnn\layer.details.hpp" />
+    <ClInclude Include="include\opencv2\dnn\layer.hpp" />
+    <ClInclude Include="include\opencv2\dnn\shape_utils.hpp" />
+    <ClInclude Include="include\opencv2\dnn\utils\inference_engine.hpp" />
+    <ClInclude Include="include\opencv2\features2d.hpp" />
+    <ClInclude Include="include\opencv2\features2d\features2d.hpp" />
+    <ClInclude Include="include\opencv2\features2d\hal\interface.h" />
+    <ClInclude Include="include\opencv2\flann.hpp" />
+    <ClInclude Include="include\opencv2\flann\allocator.h" />
+    <ClInclude Include="include\opencv2\flann\all_indices.h" />
+    <ClInclude Include="include\opencv2\flann\any.h" />
+    <ClInclude Include="include\opencv2\flann\autotuned_index.h" />
+    <ClInclude Include="include\opencv2\flann\composite_index.h" />
+    <ClInclude Include="include\opencv2\flann\config.h" />
+    <ClInclude Include="include\opencv2\flann\defines.h" />
+    <ClInclude Include="include\opencv2\flann\dist.h" />
+    <ClInclude Include="include\opencv2\flann\dummy.h" />
+    <ClInclude Include="include\opencv2\flann\dynamic_bitset.h" />
+    <ClInclude Include="include\opencv2\flann\flann.hpp" />
+    <ClInclude Include="include\opencv2\flann\flann_base.hpp" />
+    <ClInclude Include="include\opencv2\flann\general.h" />
+    <ClInclude Include="include\opencv2\flann\ground_truth.h" />
+    <ClInclude Include="include\opencv2\flann\hdf5.h" />
+    <ClInclude Include="include\opencv2\flann\heap.h" />
+    <ClInclude Include="include\opencv2\flann\hierarchical_clustering_index.h" />
+    <ClInclude Include="include\opencv2\flann\index_testing.h" />
+    <ClInclude Include="include\opencv2\flann\kdtree_index.h" />
+    <ClInclude Include="include\opencv2\flann\kdtree_single_index.h" />
+    <ClInclude Include="include\opencv2\flann\kmeans_index.h" />
+    <ClInclude Include="include\opencv2\flann\linear_index.h" />
+    <ClInclude Include="include\opencv2\flann\logger.h" />
+    <ClInclude Include="include\opencv2\flann\lsh_index.h" />
+    <ClInclude Include="include\opencv2\flann\lsh_table.h" />
+    <ClInclude Include="include\opencv2\flann\matrix.h" />
+    <ClInclude Include="include\opencv2\flann\miniflann.hpp" />
+    <ClInclude Include="include\opencv2\flann\nn_index.h" />
+    <ClInclude Include="include\opencv2\flann\object_factory.h" />
+    <ClInclude Include="include\opencv2\flann\params.h" />
+    <ClInclude Include="include\opencv2\flann\random.h" />
+    <ClInclude Include="include\opencv2\flann\result_set.h" />
+    <ClInclude Include="include\opencv2\flann\sampling.h" />
+    <ClInclude Include="include\opencv2\flann\saving.h" />
+    <ClInclude Include="include\opencv2\flann\simplex_downhill.h" />
+    <ClInclude Include="include\opencv2\flann\timer.h" />
+    <ClInclude Include="include\opencv2\highgui.hpp" />
+    <ClInclude Include="include\opencv2\highgui\highgui.hpp" />
+    <ClInclude Include="include\opencv2\highgui\highgui_c.h" />
+    <ClInclude Include="include\opencv2\imgcodecs.hpp" />
+    <ClInclude Include="include\opencv2\imgcodecs\imgcodecs.hpp" />
+    <ClInclude Include="include\opencv2\imgcodecs\imgcodecs_c.h" />
+    <ClInclude Include="include\opencv2\imgcodecs\ios.h" />
+    <ClInclude Include="include\opencv2\imgproc.hpp" />
+    <ClInclude Include="include\opencv2\imgproc\detail\distortion_model.hpp" />
+    <ClInclude Include="include\opencv2\imgproc\hal\hal.hpp" />
+    <ClInclude Include="include\opencv2\imgproc\hal\interface.h" />
+    <ClInclude Include="include\opencv2\imgproc\imgproc.hpp" />
+    <ClInclude Include="include\opencv2\imgproc\imgproc_c.h" />
+    <ClInclude Include="include\opencv2\imgproc\types_c.h" />
+    <ClInclude Include="include\opencv2\ml.hpp" />
+    <ClInclude Include="include\opencv2\ml\ml.hpp" />
+    <ClInclude Include="include\opencv2\ml\ml.inl.hpp" />
+    <ClInclude Include="include\opencv2\objdetect.hpp" />
+    <ClInclude Include="include\opencv2\objdetect\detection_based_tracker.hpp" />
+    <ClInclude Include="include\opencv2\objdetect\objdetect.hpp" />
+    <ClInclude Include="include\opencv2\objdetect\objdetect_c.h" />
+    <ClInclude Include="include\opencv2\opencv.hpp" />
+    <ClInclude Include="include\opencv2\opencv_modules.hpp" />
+    <ClInclude Include="include\opencv2\photo.hpp" />
+    <ClInclude Include="include\opencv2\photo\cuda.hpp" />
+    <ClInclude Include="include\opencv2\photo\photo.hpp" />
+    <ClInclude Include="include\opencv2\photo\photo_c.h" />
+    <ClInclude Include="include\opencv2\shape.hpp" />
+    <ClInclude Include="include\opencv2\shape\emdL1.hpp" />
+    <ClInclude Include="include\opencv2\shape\hist_cost.hpp" />
+    <ClInclude Include="include\opencv2\shape\shape.hpp" />
+    <ClInclude Include="include\opencv2\shape\shape_distance.hpp" />
+    <ClInclude Include="include\opencv2\shape\shape_transformer.hpp" />
+    <ClInclude Include="include\opencv2\stitching.hpp" />
+    <ClInclude Include="include\opencv2\stitching\detail\autocalib.hpp" />
+    <ClInclude Include="include\opencv2\stitching\detail\blenders.hpp" />
+    <ClInclude Include="include\opencv2\stitching\detail\camera.hpp" />
+    <ClInclude Include="include\opencv2\stitching\detail\exposure_compensate.hpp" />
+    <ClInclude Include="include\opencv2\stitching\detail\matchers.hpp" />
+    <ClInclude Include="include\opencv2\stitching\detail\motion_estimators.hpp" />
+    <ClInclude Include="include\opencv2\stitching\detail\seam_finders.hpp" />
+    <ClInclude Include="include\opencv2\stitching\detail\timelapsers.hpp" />
+    <ClInclude Include="include\opencv2\stitching\detail\util.hpp" />
+    <ClInclude Include="include\opencv2\stitching\detail\util_inl.hpp" />
+    <ClInclude Include="include\opencv2\stitching\detail\warpers.hpp" />
+    <ClInclude Include="include\opencv2\stitching\detail\warpers_inl.hpp" />
+    <ClInclude Include="include\opencv2\stitching\warpers.hpp" />
+    <ClInclude Include="include\opencv2\superres.hpp" />
+    <ClInclude Include="include\opencv2\superres\optical_flow.hpp" />
+    <ClInclude Include="include\opencv2\video.hpp" />
+    <ClInclude Include="include\opencv2\videoio.hpp" />
+    <ClInclude Include="include\opencv2\videoio\cap_ios.h" />
+    <ClInclude Include="include\opencv2\videoio\registry.hpp" />
+    <ClInclude Include="include\opencv2\videoio\videoio.hpp" />
+    <ClInclude Include="include\opencv2\videoio\videoio_c.h" />
+    <ClInclude Include="include\opencv2\videostab.hpp" />
+    <ClInclude Include="include\opencv2\videostab\deblurring.hpp" />
+    <ClInclude Include="include\opencv2\videostab\fast_marching.hpp" />
+    <ClInclude Include="include\opencv2\videostab\fast_marching_inl.hpp" />
+    <ClInclude Include="include\opencv2\videostab\frame_source.hpp" />
+    <ClInclude Include="include\opencv2\videostab\global_motion.hpp" />
+    <ClInclude Include="include\opencv2\videostab\inpainting.hpp" />
+    <ClInclude Include="include\opencv2\videostab\log.hpp" />
+    <ClInclude Include="include\opencv2\videostab\motion_core.hpp" />
+    <ClInclude Include="include\opencv2\videostab\motion_stabilizing.hpp" />
+    <ClInclude Include="include\opencv2\videostab\optical_flow.hpp" />
+    <ClInclude Include="include\opencv2\videostab\outlier_rejection.hpp" />
+    <ClInclude Include="include\opencv2\videostab\ring_buffer.hpp" />
+    <ClInclude Include="include\opencv2\videostab\stabilizer.hpp" />
+    <ClInclude Include="include\opencv2\videostab\wobble_suppression.hpp" />
+    <ClInclude Include="include\opencv2\video\background_segm.hpp" />
+    <ClInclude Include="include\opencv2\video\tracking.hpp" />
+    <ClInclude Include="include\opencv2\video\tracking_c.h" />
+    <ClInclude Include="include\opencv2\video\video.hpp" />
+    <ClInclude Include="include\opencv2\world.hpp" />
+    <ClInclude Include="include\opencv\cv.h" />
+    <ClInclude Include="include\opencv\cv.hpp" />
+    <ClInclude Include="include\opencv\cvaux.h" />
+    <ClInclude Include="include\opencv\cvaux.hpp" />
+    <ClInclude Include="include\opencv\cvwimage.h" />
+    <ClInclude Include="include\opencv\cxcore.h" />
+    <ClInclude Include="include\opencv\cxcore.hpp" />
+    <ClInclude Include="include\opencv\cxeigen.hpp" />
+    <ClInclude Include="include\opencv\cxmisc.h" />
+    <ClInclude Include="include\opencv\highgui.h" />
+    <ClInclude Include="include\opencv\ml.h" />
+    <ClInclude Include="src\definition.h" />
+    <ClInclude Include="src\detection\face_detector.h" />
+    <ClInclude Include="src\img_process.h" />
+    <ClInclude Include="src\jni_long_field.h" />
+    <ClInclude Include="src\live\live.h" />
+    <ClInclude Include="src\Log.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\detection\face_detector.cpp" />
+    <ClCompile Include="src\face_detector_jni.cpp" />
+    <ClCompile Include="src\img_process.cpp" />
+    <ClCompile Include="src\live\live.cpp" />
+    <ClCompile Include="src\live_jni.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -88,13 +438,16 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;CPPENGINEDLL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName)\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(ProjectName)\libs\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ncnn.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -107,6 +460,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName)\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -114,6 +468,8 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(ProjectName)\libs\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ncnn.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -124,11 +480,14 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName)\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(ProjectName)\libs\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ncnn.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -141,6 +500,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName)\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -148,21 +508,10 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(ProjectName)\libs\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ncnn.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="framework.h" />
-    <ClInclude Include="pch.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="dllmain.cpp" />
-    <ClCompile Include="pch.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
-    </ClCompile>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
