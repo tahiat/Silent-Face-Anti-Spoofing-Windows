@@ -4,7 +4,7 @@
 
 #include <opencv2/imgproc.hpp>
 #include "live.h"
-#include "../android_log.h"
+#include "../Log.h"
 
 Live::Live() {
     thread_num_ = 2;
@@ -21,7 +21,7 @@ Live::~Live() {
     nets_.clear();
 }
 
-int Live::LoadModel(AAssetManager *assetManager, std::vector<ModelConfig> &configs) {
+int Live::LoadModel(std::vector<ModelConfig> &configs) {
     configs_ = configs;
     model_num_ = static_cast<int>(configs_.size());
     for (int i = 0; i < model_num_; ++i) {
@@ -29,13 +29,13 @@ int Live::LoadModel(AAssetManager *assetManager, std::vector<ModelConfig> &confi
         net->opt = option_;
         std::string param = "live/" + configs_[i].name + ".param";
         std::string model = "live/" + configs_[i].name + ".bin";
-        int ret = net->load_param(assetManager, param.c_str());
+        int ret = net->load_param(param.c_str());
         if (ret != 0) {
             LOG_ERR("LiveBody load param failed.");
             return -2 * (i) - 1;
         }
 
-        ret = net->load_model(assetManager, model.c_str());
+        ret = net->load_model(model.c_str());
         if (ret != 0) {
             LOG_ERR("LiveBody load model failed.");
             return -2 * (i + 1);
